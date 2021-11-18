@@ -1,4 +1,4 @@
-# CNN-Lateral-Control
+# CNN-Lateral-Control 
 End-to-end autonomous vehicle lateral control with deep learning
 
 An end-to-end method predicting decisions by using deep learning techniques to simulate and reproduce human driving behaviors from observed camera images is one of the famous methods with the highest prediction performance for developing an autonomous self-driving vehicle. Convolutional neural networks (CNNs) are frequently used to control the steering angle of autonomous cars, and for most situations forward-facing cameras are used to generate lateral error cases. In this project, we propose an end-to-end lateral control method based on previous-continuous steering angle information learning of a deep convolutional neural network (DCNN) by considering the ego vehicle's dynamics to predict human driver decisions, but without neglecting the longitudinal control cases such as acceleration and deceleration.
